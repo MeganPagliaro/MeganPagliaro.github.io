@@ -22,11 +22,11 @@ $font-size: 25px;
 // Base document colors
 $navbar-bg: $org-1; // navbar
 $navbar-fg: $charcoal; // navbar foreground elements
-$navbar-hl: $org-2; // highlight color when hovering on a page
+$navbar-hl: $cream; // highlight color when hovering on a page (also home button color)
 $sidebar-bg: $org-2; // sidebar
 $sidebar-fg: $charcoal; // sidebar foreground elements
-$body-bg: $cream; // page background
-$body-color: $charcoal; // page text
+$body-bg: $charcoal; // page background
+$body-color: $cream; // page text
 $footer-bg: $mint-1; // footer
 $footer-fg: $charcoal; // footer text
 $link-color: $url-blue; // hyperlinks
@@ -46,7 +46,7 @@ pre code:not(.sourceCode) { background-color: $gray-2; }
 
 // Improve contrast for tabset panels
 .nav-tabs .nav-link.active { 
-  background-color: #FFF; 
-  color: $black;
+  background-color: #000; 
+  color: $white;
 }
-.tab-content { background-color: #FFF; }
+.tab-content { background-color: #000; }
